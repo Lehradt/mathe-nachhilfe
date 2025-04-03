@@ -1,4 +1,4 @@
-const notification = document.getElementById('notification');
+nst notification = document.getElementById('notification');
 const notificationText = document.getElementById('notificationText');
 function blendIn(){
   notification.style.transform = 'translateY(80px)';
@@ -29,22 +29,22 @@ document.getElementById('opener').addEventListener('click', function(){
   this.querySelector('i').classList.toggle('fa-angle-up');
 });
 document.getElementById('link1').addEventListener('click', function(){
-  document.getElementById('main').src = 'https://lehradt.github.io/sites/kalender.html';
+  document.getElementById('main').src = 'https://lehradt.github.io/mathe-nachhilfe/sites/kalender.html';
   notificationText.innerHTML = "Kalender geladen";
   blendIn();
 });
 document.getElementById('link2').addEventListener('click', function(){
-  document.getElementById('main').src = 'https://lehradt.github.io/sites/uebungen.html';
+  document.getElementById('main').src = 'https://lehradt.github.io/mathe-nachhilfe/sites/uebungen.html';
   notificationText.innerHTML = "Übungen geladen";
   blendIn();
 });
 document.getElementById('link3').addEventListener('click', function(){
-  document.getElementById('main').src = 'https://lehradt.github.io/sites/loesungen.html';
+  document.getElementById('main').src = 'https://lehradt.github.io/mathe-nachhilfe/sites/loesungen.html';
   notificationText.innerHTML = "Lösungen geladen";
   blendIn();
 });
 document.getElementById('link4').addEventListener('click', function(){
-  document.getElementById('main').src = 'https://lehradt.github.io/sites/rueckblick.html';
+  document.getElementById('main').src = 'https://lehradt.github.io/mathe-nachhilfe/sites/rueckblick.html';
   notificationText.innerHTML = "Rückblick geladen";
   blendIn();
 });
