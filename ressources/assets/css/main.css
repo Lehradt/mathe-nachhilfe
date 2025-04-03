@@ -1,1 +1,135 @@
+* {
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d4d0c7;
 
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #ab9b84;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 5px #ab9b84;
+  z-index: 5;
+}
+header img{
+  height: 50px;
+  width: 50px;
+  margin: 12.5px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #000000;
+}
+header h3{
+  font-size: 20px;
+  color: #d4d0c7;
+}
+#head-left, #head-right{
+  display: flex;
+}
+#head-left{
+  width: 50%;
+  align-items: center;
+}
+#head-right{
+  width: 50%;
+  justify-content: flex-end;
+}
+#head-right a{
+  margin: 12.5px;
+}
+.fas{
+  color: #d4d0c7;
+}
+#notification{
+  display: flex;
+  background-color: #d9c5ab;
+  box-shadow: 0px 0px 10px #d9c5ab;
+  position: absolute;
+  top: -80px;
+  left: calc(50% - 75px);
+  width: 150px;
+  height: 30px;
+  padding-top: 15px;
+  border: none;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  z-index: 10;
+}
+#notification p{
+  font-size: 10px;
+  color: #c2967d;
+  padding-bottom: 15px;
+}
+#opener{
+  background-color: #ab9b84;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 5px 5px #ab9b84;
+  text-align: center;
+  align-items: center;
+  padding-top: 5px;
+  transition: all 0.5s ease;
+  z-index: 3;
+}
+#opener.open{
+  transform: translateY(50px);
+}
+#opens{
+  padding-top: 25px;
+}
+#nav{
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #ab9b84;
+  box-shadow: 0px 5px 5px #ab9b84;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+  padding: 5px;
+  z-index: 4;
+}
+#nav.open{
+  transform: translateY(50px);
+}
+.link{
+  color: #d4d0c7;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+.link:hover{
+  background-color: #a2c2c0;
+}
+#main{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 75px);
+}
