@@ -1,0 +1,68 @@
+* {
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d4d0c7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.kalender-container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+  max-height: calc(100% - 80px);
+  margin: 20px;
+}
+
+h2 {
+  color: #ab9b84;
+  margin-bottom: 10px;
+}
+
+.kalender {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.kalender th {
+  background-color: #ab9b84;
+  color: #d4d0c7;
+  padding: 10px;
+}
+
+.kalender td {
+  width: 14%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ab9b84;
+  background-color: #f4f1eb;
+}
+
+.kalender td.donnerstag {
+  background-color: #a2c2c0;
+  color: #d4d0c7;
+  font-weight: bold;
+}
+
+.kalender td.donnerstag br {
+  display: block;
+}
+
+.kalender td.donnerstag::after {
+  display: block;
+  font-size: 12px;
+  color: #d4d0c7;
+  margin-top: 5px;
+}
