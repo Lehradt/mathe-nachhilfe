@@ -1,4 +1,4 @@
-nst notification = document.getElementById('notification');
+const notification = document.getElementById('notification');
 const notificationText = document.getElementById('notificationText');
 function blendIn(){
   notification.style.transform = 'translateY(80px)';
