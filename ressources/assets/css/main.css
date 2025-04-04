@@ -191,6 +191,7 @@ p{
   justify-content: center;
   text-align: center;
   background-color: #d9c5ab;
+  box-shadow: 0px 0px 10px #ab9b84;
 }
 .homeLink{
   color: #c2967d;
