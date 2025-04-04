@@ -31,7 +31,7 @@ document.getElementById('opener').addEventListener('click', function(){
 document.getElementById('link1').addEventListener('click', function(){
   document.getElementById('main').style.display = 'block';
   document.getElementsByClassName('uebungen-container')[0].style.display = 'none';
-  document.getElementById('main').src = '/sites/kalender.html';
+  document.getElementById('main').src = 'https://lehradt.github.io/mathe-nachhilfe/sites/kalender.html';
   notificationText.innerHTML = "Kalender geladen";
   blendIn();
 });
@@ -44,14 +44,14 @@ document.getElementById('link2').addEventListener('click', function(){
 document.getElementById('link3').addEventListener('click', function(){
   document.getElementById('main').style.display = 'block';
   document.getElementsByClassName('uebungen-container')[0].style.display = 'none';
-  document.getElementById('main').src = '/sites/loesungen.html';
+  document.getElementById('main').src = 'https://lehradt.github.io/mathe-nachhilfe/sites/loesungen.html';
   notificationText.innerHTML = "Lösungen geladen";
   blendIn();
 });
 document.getElementById('link4').addEventListener('click', function(){
   document.getElementById('main').style.display = 'block';
   document.getElementsByClassName('uebungen-container')[0].style.display = 'none';
-  document.getElementById('main').src = '/sites/rueckblick.html';
+  document.getElementById('main').src = 'https://lehradt.github.io/mathe-nachhilfe/sites/rueckblick.html';
   notificationText.innerHTML = "Rückblick geladen";
   blendIn();
 });
