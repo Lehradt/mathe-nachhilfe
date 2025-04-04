@@ -1,0 +1,19 @@
+*{
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d4d0c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1{
+  color: #ab9b842;
+  margin-top: 100px;
+}
