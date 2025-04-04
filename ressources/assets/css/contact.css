@@ -37,3 +37,10 @@
         #contact-card a:hover{
             text-decoration: none;
         }
+        #github{
+               corsor: pointer;
+        }
+        #info{
+               display: none;
+               transition: 0.5s ease
+        }
