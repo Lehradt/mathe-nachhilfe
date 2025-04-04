@@ -28,13 +28,14 @@
     </div>
     <script src="https://lehradt.github.io/mathe-nachhilfe/ressources/assets/js/contact.js"></script>
     <script>
-        document.getElementById('github').addEventListener('click', function(){
-            navigator.clipboard.writeText("https://github.com/lehradt");
-            document.getElementById('info').style.display = 'block';
-            setTimeout(() => {
-                document.getElementById('info').style.display = 'none';
-            }, 3000);
-        });
+        document.getElementById('github').addEventListener('click', function(event){
+    event.preventDefault();
+    navigator.clipboard.writeText("https://github.com/lehradt");
+    document.getElementById('info').style.display = 'block';
+    setTimeout(() => {
+        document.getElementById('info').style.display = 'none';
+    }, 3000);
+});
     </script>
 </body>
 </html>
