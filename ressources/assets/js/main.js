@@ -222,4 +222,14 @@ document.addEventListener("DOMContentLoaded", function () {
     window.open(dateiURL, '_blank');
     resetInactivityTimer();
   });
+  document.getElementById('ueb1004_2').addEventListener('click', function() {
+    const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/2_multiplikatoin_von_summentermen.pdf';
+    window.open(dateiURL, '_blank');
+    resetInactivityTimer();
+  });
+  document.getElementById('ueb1004_3').addEventListener('click', function() {
+    const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/3_vermischte_uebungen.pdf';
+    window.open(dateiURL, '_blank');
+    resetInactivityTimer();
+  });
 });
