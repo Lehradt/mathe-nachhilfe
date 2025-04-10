@@ -202,15 +202,6 @@ document.addEventListener("DOMContentLoaded", function () {
     setTab('contact');
     blendIn("Kontaktinfos geladen");
   });
-  
-  document.getElementById('download').addEventListener('click', function(event) {
-    event.preventDefault();
-    const fileUrl = "https://lehradt.github.io/mathe-nachhilfe/ressources/download/calc.html";
-    const link = document.createElement('a');
-    link.href = fileUrl;
-    link.download = "calculator_v1_0.html";
-    link.click();
-});
 
   document.getElementById('ueb0304').addEventListener('click', function() {
     const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/1_lineare_gleichungen.pdf';
@@ -218,18 +209,18 @@ document.addEventListener("DOMContentLoaded", function () {
     resetInactivityTimer();
   });
   document.getElementById('ueb1004').addEventListener('click', function() {
-    const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/Zahlenmengen.png';
-    window.location.href = deinURL;
+    const dateiURL2 = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/Zahlenmengen.png';
+    window.location.href = deinURL2;
     resetInactivityTimer();
   });
   document.getElementById('ueb1004_2').addEventListener('click', function() {
-    const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/2_multiplikatoin_von_summentermen.pdf';
-    window.location.href = deinURL;
+    const dateiURL3 = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/2_multiplikatoin_von_summentermen.pdf';
+    window.location.href = deinURL3;
     resetInactivityTimer();
   });
   document.getElementById('ueb1004_3').addEventListener('click', function() {
-    const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/3_vermischte_uebungen.pdf';
-    window.location.href = deinURL;
+    const dateiURL4 = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/3_vermischte_uebungen.pdf';
+    window.location.href = deinURL4;
     resetInactivityTimer();
   });
 });
