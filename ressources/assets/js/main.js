@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", function () {
     resetInactivityTimer();
   });
   document.getElementById('ueb1004_2').addEventListener('click', function() {
-    const dateiURL3 = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/2_multiplikatoin_von_summentermen.pdf';
+    const dateiURL3 = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/2_multiplikation_von_summentermen.pdf';
     window.location.href = dateiURL3;
     resetInactivityTimer();
   });
