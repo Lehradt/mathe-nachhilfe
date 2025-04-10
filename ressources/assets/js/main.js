@@ -214,22 +214,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById('ueb0304').addEventListener('click', function() {
     const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/1_lineare_gleichungen.pdf';
-    window.open(dateiURL, '_blank');
+    window.location.href = deinURL;
     resetInactivityTimer();
   });
   document.getElementById('ueb1004').addEventListener('click', function() {
     const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/Zahlenmengen.png';
-    window.open(dateiURL, '_blank');
+    window.location.href = deinURL;
     resetInactivityTimer();
   });
   document.getElementById('ueb1004_2').addEventListener('click', function() {
     const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/2_multiplikatoin_von_summentermen.pdf';
-    window.open(dateiURL, '_blank');
+    window.location.href = deinURL;
     resetInactivityTimer();
   });
   document.getElementById('ueb1004_3').addEventListener('click', function() {
     const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/3_vermischte_uebungen.pdf';
-    window.open(dateiURL, '_blank');
+    window.location.href = deinURL;
     resetInactivityTimer();
   });
 });
