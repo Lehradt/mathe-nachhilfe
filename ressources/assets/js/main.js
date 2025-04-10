@@ -217,4 +217,9 @@ document.addEventListener("DOMContentLoaded", function () {
     window.open(dateiURL, '_blank');
     resetInactivityTimer();
   });
+  document.getElementById('ueb1004').addEventListener('click', function() {
+    const dateiURL = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/Zahlenmengen.png';
+    window.open(dateiURL, '_blank');
+    resetInactivityTimer();
+  });
 });
