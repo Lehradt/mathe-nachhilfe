@@ -223,4 +223,14 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = dateiURL4;
     resetInactivityTimer();
   });
+  document.getElementById('ueb0705').addEventListener('click', function() {
+    const dateiURL4 = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/4_Mathematik_Nachhilfe.pdf';
+    window.location.href = dateiURL4;
+    resetInactivityTimer();
+  });
+  document.getElementById('ueb0705_2').addEventListener('click', function() {
+    const dateiURL4 = 'https://lehradt.github.io/mathe-nachhilfe/ressources/uebungen/5_Mathematik_Nachhilfe.pdf';
+    window.location.href = dateiURL4;
+    resetInactivityTimer();
+  });
 });
